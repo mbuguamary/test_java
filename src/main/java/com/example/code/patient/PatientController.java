@@ -15,7 +15,7 @@ public class PatientController {
     public List<Patient> getPatient(){
     return ();
 }
- @PostMapping
+ @PostMapping("/create/patient")
     public void registerPatient(){
 
  }
