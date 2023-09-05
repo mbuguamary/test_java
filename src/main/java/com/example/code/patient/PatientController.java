@@ -11,6 +11,7 @@ import java.util.List;
 @RequestMapping(path = "ap1/v1")
 @AllArgsConstructor
 public class PatientController {
+    private
 @GetMapping
     public List<Patient> getPatient(){
     return ();
