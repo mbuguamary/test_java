@@ -5,7 +5,7 @@ server:
 spring:
   datasource:
     password: postgres
-    url: jdbc:postgresql://localhost:5432/sacco
+    url: jdbc:postgresql://localhost:5432/test
     username: postgres
     driver-class-name: org.postgresql.Driver
   jpa:

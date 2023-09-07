@@ -17,7 +17,7 @@ public class CodeApplication {
 
 	@GetMapping
 	private List<String> hello(){
-		return  List.of("hello","world");
+		return  List.of("testing","app");
 
 	}
 }
